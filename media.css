@@ -1,6 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
        /* header start */
+     
        .menu a{
         display: none;
     }
@@ -17,6 +18,9 @@
     }
     nav{
         justify-content: space-between;
+        border: 0.5px solid var(--Orange, #FEA301);
+        padding: 5px;
+        margin-top: 0;
 
     }
     .logo{
@@ -52,6 +56,42 @@
     .menu-icon i{
         font-size: 25px;
     }
+      /* curriculam start */
+.single-column{
+    display: none;
+}
+.column img{
+    width: 100%;
+}
+.column h2{
+    font-size: 16px;
+    padding: 10px;
+}
+.column a{
+    margin-left: 0;
+    padding: 0;
+    
+}
+.card-container{
+    padding: 0;
+}
+.stories-title{
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.next-previous-img{
+    display: none;
+}
+.curriculam-title{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.view-all-button button{
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+/* curriculam end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -74,6 +114,9 @@
     }
     nav{
         justify-content: space-between;
+        border: 0.5px solid var(--Orange, #FEA301);
+        margin-top: 0;
+        padding: 5px;
 
     }
     .logo{
@@ -102,13 +145,46 @@
     }
     /* header end */
   
-  
+  /* curriculam start */
+.single-column{
+    display: none;
+}
+.column img{
+    width: 100%;
+}
+.column h2{
+    font-size: 16px;
+    padding: 20px;
+}
+.column a{
+    margin-left: 20px;
+}
+.card-container{
+    padding: 20px;
+}
+.stories-title{
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.next-previous-img{
+    display: none;
+}
+.curriculam-title{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.view-all-button button{
+    font-size: 16px;
+    padding: 10px 30px;
+}
+/* curriculam end */
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
  /* header start */
+
  .menu a{
     display: none;
 }
@@ -125,6 +201,9 @@
 }
 nav{
     justify-content: space-between;
+    border: 0.5px solid var(--Orange, #FEA301);
+    margin-top: 0;
+    padding: 5px;
 
 }
 .logo{
@@ -140,6 +219,31 @@ nav{
     margin-bottom: 20px;
 }
 /* header end */
+
+/* curriculam start */
+.single-column{
+    display: none;
+}
+.column img{
+    width: 100%;
+}
+.column h2{
+    font-size: 16px;
+    padding: 20px;
+}
+.column a{
+    margin-left: 20px;
+}
+.card-container{
+    padding: 20px;
+}
+.stories-title{
+    margin-bottom: 30px;
+}
+.next-previous-img{
+    display: none;
+}
+/* curriculam end */
 
 
 
