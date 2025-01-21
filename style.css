@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+/* header start */
+header{
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.logo{
+
+}
+.logo>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.logo img{
+
+}
+.logo span{
+    font-size: 32px;
+font-weight: 700;
+line-height: 30px;
+}
+.menu{
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 32px;
+}
+.menu a:last-child{
+    margin-right: 0;
+}
+.orange{
+    color: #FEA301;
+}
+.blue{
+    color: #01ACFD;
+}
+.light-blue{
+    color: #05D4DF;
+}
+.purple{
+   color:  #5D58EF;
+}
+
+.menu-icon i{
+    display: none;
+}
+.menu-button button{
+    border-radius: 12px;
+background: var(--Orange, #FEA301);
+border: none;
+padding: 10px 40px;
+color: white;
+font-size: 20px;
+font-weight: 600;
+cursor: pointer;
+transition: .3s all ease-in;
+}
+.menu-button button:hover{
+    background-color: #05D4DF;
+   
+}
+/* banner start */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.b-content{
+
+}
+.b-content h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 24px;
+}
+.b-content p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.Empowering{
+    color: #FEA301;
+}
+.toward-vision{
+    color: #01ACFD;
+}
+.b-content a{
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    transition: .3s all ease-in;
+}
+.b-content a:hover{
+    background-color: #FEA301;
+   
+}
+.b-img{
+
+}
+.b-img img{
+
+}
+.hide{
+    display: none;
+}
+/* banner end */
+/* header end */
