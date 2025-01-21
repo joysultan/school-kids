@@ -304,3 +304,65 @@ transition: .3s all ease-in;
     background-color: #FEA301;
 }
 /* curriculam end */
+
+/* footer start */
+footer{
+    background: #01ACFD;
+    padding: 140px;
+    color: white;
+}
+.footer-container{
+        display: flex;
+        justify-content: space-between;
+      
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    gap: 10px;
+}
+.footer-logo span{
+    font-size: 42.143px;
+font-weight: 700;
+line-height: 39.509px;
+}
+.first-column img{
+
+}
+.first-column span{
+
+}
+.first-column p{
+    font-size: 20px
+}
+.second-column{
+
+}
+.second-column h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.second-column a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.third-column{
+
+}
+.third-column h3{
+    font-size: 26px;
+}
+.icons{
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+.icons img{
+    margin-right: 10px;
+}
+/* footer end */
