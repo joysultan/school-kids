@@ -179,6 +179,15 @@ padding: 52.819px 40.668px 53.762px 40.878px;
     padding: 52.819px 40.668px 53.762px 40.878px;
    
 }
+.item-1 a{
+    color: #64C8FF;
+}
+.item-2 a{
+    color: #F0AA00;
+}
+.item-3 a{
+    color: #8700FF;
+}
 .column-img{
     margin-bottom: 32px;
 }
