@@ -94,6 +94,9 @@
 .item-3{
     margin-bottom: 60px;
 }
+.b-content{
+    padding-bottom: 20px;
+}
 /* curriculam end */
 /* footer start */
 .footer-container{
@@ -168,6 +171,9 @@ footer{
     .b-content a{
         padding: 6px 24px;
         font-size: 16px;
+    }
+    .b-content{
+        padding-bottom: 30px;
     }
     /* header end */
   
@@ -270,6 +276,9 @@ nav{
 }
 .b-img{
     margin-bottom: 20px;
+}
+.b-content{
+    padding-bottom: 40px;
 }
 /* header end */
 
