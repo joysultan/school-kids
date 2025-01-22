@@ -365,4 +365,12 @@ line-height: 39.509px;
 .icons img{
     margin-right: 10px;
 }
+marquee{
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    font-size: 20px;
+    font-family: "Raleway", serif;
+    color: #01ACFD;
+    padding: 10px;
+    font-weight: 700;
+}
 /* footer end */
