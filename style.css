@@ -197,6 +197,9 @@ padding: 52.819px 40.668px 53.762px 40.878px;
     margin-top: 80px;
     margin-bottom: 120px;
 }
+.next-previous-img img{
+    margin-right: 10px;
+}
 .column-title{
     font-size: 24.523px;
     line-height: 30.654px;
